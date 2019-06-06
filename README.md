@@ -44,7 +44,7 @@ This code is for 64bit linux environment,
     ```
 * Set the variables 'EXANA_DIR' and 'PIN_DIR' 
 
-    Edit [setupExana.sh(bash)](./ExanaPkg/setupExana.sh) or [setupExana.csh(csh)](./ExanaPkg/setupExana.csh) to the absolute paths for ExanaPkg and Pin tool kit directory if you install Exana other than '/home/$USER'.
+    Edit [setupExana.sh(bash)](setupExana.sh) or [setupExana.csh(csh)](setupExana.csh) to the absolute paths for ExanaPkg and Pin tool kit directory if you install Exana other than '/home/$USER'.
 
 * Install the following software
 
