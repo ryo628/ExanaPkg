@@ -32,13 +32,19 @@ This code is for 64bit linux environment,
     For information about Pin tool kit, please check:
     	http://pintool.org/ 
     Here, Exana is verified using Pin tool kit rev 71313 for Intel64 linux on CentOS.
-
-* Unpack the pin-2.14-71313-gcc.4.4.7-linux.tar.gz
-* git clone https://github.com/YukinoriSato/ExanaPkg.git
-* cd ExanaPkg
+    
+    ```
+    % wget https://software.intel.com/sites/landingpage/pintool/downloads/pin-2.14-71313-gcc.4.4.7-linux.tar.gz
+    % -zxvf pin-2.14-71313-gcc.4.4.7-linux.tar.gz
+    ```
+* clone our project.
+    ```
+    % git clone https://github.com/YukinoriSato/ExanaPkg.git
+    % cd ExanaPkg
+    ```
 * Set the variables 'EXANA_DIR' and 'PIN_DIR' 
 
-    Edit setupExana.sh(bash) or setupExana.csh(csh) to the absolute paths for ExanaPkg and Pin tool kit directory if you install Exana other than '/home/$USER'.
+    Edit [setupExana.sh(bash)](./ExanaPkg/setupExana.sh) or [setupExana.csh(csh)](./ExanaPkg/setupExana.csh) to the absolute paths for ExanaPkg and Pin tool kit directory if you install Exana other than '/home/$USER'.
 
 * Install the following software
 
