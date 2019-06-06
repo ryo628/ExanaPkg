@@ -9,7 +9,7 @@ pin_dir = os.environ['PIN_DIR']
 
 #cmd = pin_dir + "/pin -t "+ pin_dir + "/source/tools/Exana/obj-intel64/Exana.so -cacheConfig " + exana_dir + "/cache.config"
 
-cmd= pin_dir+"/pin -t "+ exana_dir + "/pintool/Exana.so -cacheConfig "+exana_dir+"/cache.config"
+cmd= pin_dir+"/pin -ifeellucky -t "+ exana_dir + "/pintool/Exana.so -cacheConfig "+exana_dir+"/cache.config"
 
 
 args = sys.argv
